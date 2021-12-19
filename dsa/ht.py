@@ -36,7 +36,6 @@ class HashTable:
         
 
 
-
 my_hash_table = HashTable()
 my_hash_table.set_item('first', 1)
 my_hash_table.set_item('second', 2)
