@@ -67,8 +67,10 @@ class LinkList:
             return None
         prev = self.head
         self.head = self.head.next
+        prev.next = None
         self.length -= 1
         if self.length == 0:
+            self.head = None
             self.tail = None
         return prev.value
 
